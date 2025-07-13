@@ -10,7 +10,7 @@ const App = () => {
     const [isLoadingCrispr, setIsLoadingCrispr] = useState(false);
     const [viewerType, setViewerType] = useState('dna'); // 'dna' or 'organoid'
 
-    // Function to add a DNA element
+    //  Function to add a DNA element
     const addDnaElement = (type) => {
         setDnaElements([...dnaElements, { id: Date.now(), type, name: ${type} ${dnaElements.length + 1} }]);
     };
