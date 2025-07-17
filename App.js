@@ -6,6 +6,7 @@ import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 // This is the root component that orchestrates the entire application.
 // It manages the global state for DNA elements, CRISPR input/results,
 // loading states, and the current 3D viewer type.
+
 const App = () => {
     // State for managing the list of DNA elements added to the construct.
     // Each element has an ID, type (e.g., 'Gene', 'Promoter'), and a name.
